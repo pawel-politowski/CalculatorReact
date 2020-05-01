@@ -3,7 +3,7 @@ import { StyledOperatorButton } from './OperatorButton.style';
 
 const OperatorButton = (props) => {
     return (
-    <StyledOperatorButton>{props.children}</StyledOperatorButton>
+    <StyledOperatorButton onClick={() => props.handleClick(props.children)}>{props.children}</StyledOperatorButton>
     );
 }
 
