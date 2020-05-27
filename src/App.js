@@ -4,7 +4,7 @@ import Button from './Components/Button/Button';
 import OperatorButton from './Components/OperatorButton/OperatorButton'
 import Input from './Components/Input/Input';
 import ClearButton from './Components/ClearButton/ClearButton';
-import { evaluate } from 'mathjs'
+import { evaluate } from 'mathjs';
 
 function App() {
   const [input, setInput] = useState('0');
@@ -20,7 +20,7 @@ function App() {
 
   const evaluteInput = () => {
     setInput(evaluate(input))
-  }
+  };
 
 
   return (
@@ -55,6 +55,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;

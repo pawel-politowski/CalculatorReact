@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledClearButton} from './ClearButton.style'
+import { StyledClearButton} from './ClearButton.style';
 
 const ClearButton = (props) => {
     return (
