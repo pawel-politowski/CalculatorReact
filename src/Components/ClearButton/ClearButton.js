@@ -5,6 +5,6 @@ const ClearButton = (props) => {
     return (
         <StyledClearButton onClick={props.handleClear}>{props.children}</StyledClearButton>
     )
-}
+};
 
 export default ClearButton;

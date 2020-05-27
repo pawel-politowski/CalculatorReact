@@ -5,7 +5,7 @@ const OperatorButton = (props) => {
     return (
     <StyledOperatorButton onClick={() => props.handleClick(props.children)}>{props.children}</StyledOperatorButton>
     );
-}
+};
 
 export default OperatorButton;
 
